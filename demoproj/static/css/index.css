@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(174, 174, 177, 0.852) !important;
+    padding: 0;
+    margin: 0
+}
+
+nav{
+    background-color: rgba(28, 27, 27, 0.811);
+}
+.nav-item{
+    margin-left: 10px;
+   
+    color: white !important;
+    font-weight: bolder;
+}
+.seven{
+    background-color: rgba(28, 27, 27, 0.811);
+    padding: 0;
+    text-align: center;
+    font-family: myfirst;
+    color: rgb(224, 221, 221);
+    /* position: fixed; */
+    /* bottom: 0; */
+  
+  }
+  
+  .seven h1{
+    padding-top: 3%;
+  
+  }
+  .six{
+    /* background-color: #40b34d; */
+    width: 100%;
+    display: flex;
+    padding: 5%;
+    position: relative;
+    text-align: left;
+   
+  }
+  .sixt{
+    /* background-color: #dfdfdf; */
+    margin-left: 5%;
+    color: white;
+  }
+  .sixt h3{
+    font-size: 15px;
+  }
+  .sixt h2{
+    font-size: 13px;
+    font-weight: bold;
+  }
