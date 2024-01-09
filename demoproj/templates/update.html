@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container-fluid index_one">
+
+  <div class="row">
+
+    <div class=" d-flex justify-content-center">
+      <form action="" method="post" class="form w-50">
+        {% csrf_token %}
+        <input type="text" name="task" placeholder="task" class="form-control my-3" value="{{task.task}}">
+        <input type="number" name="priority" placeholder="priority" class="form-control my-3" value="{{task.priority}}">
+        <div class="text-center">
+        <button class="btn btn-primary my-3">add</button>
+      </div>
+
+
+
+      </form>
+
+    </div>
+
+      </div>
+      </div>  
+  
+
+
+{% endblock %}
