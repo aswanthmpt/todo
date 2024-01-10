@@ -5,10 +5,12 @@
   <div class="row">
 
     <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
-      <form action="" method="post" class="form w-50">
+      <form action="" method="post" class="form w-50" enctype="multipart/form-data">
         {% csrf_token %}
         <input type="text" name="task" placeholder="task" class="form-control my-3">
         <input type="number" name="priority" placeholder="priority" class="form-control my-3">
+        <input type="date" name="date" placeholder="date" class="form-control my-3">
+        <input type="file" name="image" placeholder="image" class="form-control my-3">
         <div class="text-center">
         <button class="btn btn-primary my-3">add</button>
       </div>
@@ -28,6 +30,8 @@
             <tr>
               <td>{{task.task}}</td>
               <td> {{task.priority}}</td>
+              <td> {{task.date}}</td>
+              <td> {{task.image}}</td>
             </tr>
           </table> 
             
